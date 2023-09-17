@@ -1,3 +1,84 @@
-body {
-  font-size: 50px;
+html {
+  box-sizing: border-box;
+  font-size: 16px;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 1180px;
+  padding: 0 170px;
+}
+
+/*
+   glob
+*/
+
+.main {
+  padding: 463px 0 82px 0;
+  background-image: url("../assets/img/headbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main__title {
+  color: #FDFDFD;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 75px */
+  letter-spacing: 1px;
+}
+
+.main__form {
+  padding: 40px 42px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(3px);
+}
+
+.form__data {
+  margin-right: 24px;
+}
+
+
+
+
+

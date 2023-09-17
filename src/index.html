@@ -1,29 +1,59 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DiveSea</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Рум</title>
 </head>
 <body>
-  <header class="header">
-      <div class="logo"></div>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="" class="logo__img">
+            </div>
 
-      <div class="nav">
-          <ul>
-              <li>lol</li>
-              <li>lol</li>
-              <li>lol</li>
-              <li>lol</li>
-          </ul>
-      </div>
-  </header>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Про гида</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Программа тура</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Стоимость</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Блог</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
 
-  <main class="main">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda at beatae, commodi cupiditate deleniti eaque iste nihil non perferendis perspiciatis porro, quia repudiandae sit temporibus unde vel veniam voluptatibus?
-  </main>
+                <button class="nav__btn">Консультация</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main__container">
+            <h1 class="main__title">
+                Насладись прогулкой в горах
+                с командой единомышленников
+            </h1>
+            <form action="" class="main__form">
+                <select class="form__data" name="tour" id="tour">
+                    <option>Тибет</option>
+                </select>
+                <input class="form__data" type="date">
+                <select class="form__data" name="members" id="members">
+                    <option>хз</option>
+                </select>
+
+                <button class="form__btn">Найти программу</button>
+            </form>
+        </div>
+    </main>
 
 </body>
 </html>

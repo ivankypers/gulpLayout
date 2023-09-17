@@ -1,3 +1,52 @@
-body {
-  background-color: green;
+.header {
+  position: fixed;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  padding: 0 170px;
+  padding-top: 30px;
+}
+
+.logo {
+  margin-right: 212px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.nav__item:last-child {
+  margin-right: 49px;
+}
+
+.nav__link {
+  color: #FDFDFD;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.nav__btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: #1A3E3E;
+  color: #FDFDFD;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.192px;
 }
