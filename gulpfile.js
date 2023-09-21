@@ -25,3 +25,4 @@ const htmlMinify = () => {
 }
 
 exports.default = series(styles, htmlMinify)
+
