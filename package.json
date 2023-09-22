@@ -9,14 +9,18 @@
   "author": "derek",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^6.2.1",
     "gulp-inject": "^5.0.5",
     "gulp-rename": "^2.0.0",
-    "gulp-replace": "^1.1.4"
+    "gulp-replace": "^1.1.4",
+    "gulp-svg-sprite": "^2.0.3"
   },
   "dependencies": {
     "custom-select": "^1.1.15"
